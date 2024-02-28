@@ -1,0 +1,72 @@
+/* media query 1170px */
+@media(max-width: 1170px){
+   /* general css */
+   .section-subtitle{
+    max-width: 60%;
+   }
+   /* navbar css */
+   .header .navbar{
+    background-size: cover;
+    padding: 2rem;
+   }
+   .header .navbar-nav{
+    margin-top: 2rem;
+   }
+   .header .navbar-nav .nav-link{
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 1rem;
+   }
+
+      /* 02 Banner Section */
+      .banner_section .carousel-item {
+        height: 90vh;
+    }
+
+    /* 02 Banner Section */
+    .banner_section {
+        min-height: 70vh;
+    }
+
+    .banner_section .carousel-item {
+        height: 70vh;
+    }
+
+}
+
+/* media query 991px */
+@media (max-width:991px){
+.about .banner_section,
+.product .banner_section,
+.gallery .banner_section,
+.contact .banner_section{
+    padding-top: 12.5rem;
+    padding-bottom: 3rem;
+    
+}
+}
+
+/* media 767 */
+@media (max-width:767px){
+    body,html{
+        font-size: 8px;
+    }
+    .section-subtitle{
+        max-width: 80%;
+    }
+    /* 02 Banner Section */
+    .banner_section {
+        min-height: 70vh;
+    }
+
+    .banner_section .carousel-item {
+        height: 70vh;
+    }
+}
+
+/* media query 590px */
+@media (max-width:590px){
+    body,html{
+        font-size: 7px;
+    }
+    
+}
